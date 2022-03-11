@@ -1,8 +1,10 @@
 #include <stdio.h>
-#include <stdlib.h>
-
+/**
+* main - main block
+*Return: 0
+*/
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+puts("\"Programming is like building a multilingual puzzle");
+    return (0);
 }
