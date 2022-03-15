@@ -1,19 +1,15 @@
 #include <stdio.h>
-
+#include "main.h"
 /**
 *main - Entry point
-*Description: printing  alphabets in lowercase
-*Return;
+*Description: prints alphabets in lowercase
 */
-
 void print_alphabet(void)
 {
-	char ch = 'a';
-
-	while (ch <= 'z');
+	int n;
+	for (n = 'a'; n <= 'z'; n++)
 	{
-		putchar(ch);
-		ch++;
+		putchar(n);
 	}
 	putchar('\n');
-} 
+}
