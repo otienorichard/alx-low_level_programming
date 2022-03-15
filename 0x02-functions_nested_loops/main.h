@@ -1,1 +1,1 @@
-#define CHAR "_putchar"
+#define MAIN "_main_h_"
