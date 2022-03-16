@@ -16,7 +16,7 @@ void jack_bauer(void)
 	h2 = 0;
 	while (h2 <= 2)
 	{
-		if(h2 == 2)
+		if (h2 == 2)
 		{
 			a = 3;
 		}
@@ -27,7 +27,7 @@ void jack_bauer(void)
 			while (m2 <= 5)
 			{
 				m1 = 0;
-				while(m1 <= 9)
+				while (m1 <= 9)
 				{
 					_putchar('0' + h2);
 					_putchar('0' + h1);
