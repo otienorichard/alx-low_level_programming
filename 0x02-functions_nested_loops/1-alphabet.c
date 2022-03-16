@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 /**
 *main - Entry point
@@ -6,10 +5,12 @@
 */
 void print_alphabet(void)
 {
-	int n;
-	for (n = 'a'; n <= 'z'; n++)
+	char alphabet[26] = "abcdefghijklmnopqrstuvwxyz";
+	int i;
+	for (i = 0; i < 26; i++)
 	{
-		putchar(n);
+		putchar(alphabet[i]);
+
 	}
 	putchar('\n');
 }
