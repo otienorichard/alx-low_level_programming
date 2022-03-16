@@ -5,7 +5,7 @@
  * @c : character to check the case
  * Return:0 if lowercase. 1 if uppercase
  */
-int _islower(int c)
+ int _islower(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
