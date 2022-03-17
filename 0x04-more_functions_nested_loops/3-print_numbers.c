@@ -2,7 +2,6 @@
 
 /** 
  * main - prints numbers
- * stating from 0 to 9
  * Return:0
  */
 
