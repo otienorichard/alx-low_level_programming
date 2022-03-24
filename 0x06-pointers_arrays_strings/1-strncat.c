@@ -7,10 +7,13 @@
 Return: void
 */
 
+
+
 char *_strncat(char *dest, char *src, int n)
 {
 
 int dest_len, i;
+
 for (dest_len = 0; dest[dest_len] != '\0'; dest_len++)
 ;
 
