@@ -8,6 +8,8 @@
  */
 
 
+
+
 int wrdcnt(char *s)
 {
 	int i, n = 0;
