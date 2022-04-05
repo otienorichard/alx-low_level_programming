@@ -7,6 +7,7 @@
  * Return: int of number of words
  */
 
+
 int wrdcnt(char *s)
 {
 	int i, n = 0;
